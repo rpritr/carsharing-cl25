@@ -166,3 +166,31 @@ body {
     color: var(--grey-color-300);
     margin-right: 0;
 }
+
+.section__columns {
+    gap: 15px;
+}
+.section .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#contact {
+    padding-left: 59px;
+    padding-right: 59px;
+}
+
+.form input, textarea {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-color-400);
+    color: var(--grey-color-200);
+    margin-bottom: 20px;
+}
+.form input[type="submit"] {
+    color: var(--red-color);
+    border-color: var(--red-color);
+    width: 120px;
+    align-self: flex-end;
+}
