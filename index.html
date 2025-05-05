@@ -3,28 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Car Sharing</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-            <div class="header__top">
-                <div class="container">
-                    <div class="header__top__logo">
-                        <img src="images/icon.svg" alt="logo">
-                        <span><span class="colored">CAR</span> SHARING</span>
-                    </div>
-                    <nav class="header__top_menu">
-                        <a href="#">Home</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Service</a>
-                        <a href="#">Contact</a>
-                    </nav>
-                </div> <!-- e: container -->
-            </div> <!--e: header__top -->
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top__logo">
+                    <img alt="logo" src="images/icon.svg">
+                    <span><span class="colored">CAR</span> SHARING</span>
+                </div>  <!--e: header__top__logo -->
+                <nav class="header__top_menu">
+                    <a href="#">Home</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Service</a>
+                    <a href="#">Contact</a>
+                </nav> <!--e: header__top_menu -->
+            </div> <!-- e: container -->
+        </div> <!--e: header__top -->
+        <div class="header__main container">
+            <h1 class="header__main__heading">Car sharing</h1>
+            <p class="header__main__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim sem, viverra
+                vitae euismod eget, sollicitudin vitae libero. In nec vehicula felis. Donec imperdiet ipsum est, vel aliquet
+                augue ullamcorper eget. Ut euismod viverra sapien sit amet pretium. Vivamus eu lacus euismod, semper diam
+                quis, fermentum tellus. </p>
+            <div class="header__main__buttons">
+                <a class="btn btn--primary" href="#">Share a car</a>
+                <a class="btn btn--secondary" href="#">Key features</a>
+            </div> <!--e: header__main__buttons -->
+        </div> <!--e: header__main -->
     </header> <!-- e: header -->
+    <div class="scroller">
+        <a class="scroller__button" href="#">
+            <img alt="scroll down" src="images/icon_arrow_down.svg">
+        </a>
+    </div> <!--e: scroller -->
 </body>
 </html>
