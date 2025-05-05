@@ -11,4 +11,52 @@
     --grey-color-200: #6A6A6A;
     --grey-color-300: #B2B2B2;
     --grey-color-400: #D1D1D1;
+    --primary-font: "Nunito Sans";
+    --secondary-font: "Open Sans";
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+    width: 1088px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-image: url("../images/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.header__top {
+    background: var(--black-color-t200) 0 0 no-repeat padding-box;
+    border: 2px solid var(--black-color-t100);
+    height: 93px;
+    display: flex;
+}
+.header__top .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__top__logo {
+    color: var(--white-color);
+    font: normal normal bold 35px/47px var(--primary-font);
+}
+.header__top__logo .colored {
+    color: var(--red-color);
+}
+.header__top_menu a {
+    color: var(--white-color);
+    font: normal normal bold 16px/22px var(--primary-font);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 43px 22px;
 }
