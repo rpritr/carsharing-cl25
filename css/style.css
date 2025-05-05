@@ -215,8 +215,26 @@ body {
     text-transform: uppercase;
     font: normal normal bold 14px/19px var(--primary-font);
 }
+.footer__menu li {
+    margin-bottom: 7px;
+}
+.footer__menu a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+.footer__menu li a:hover {
+    color: var(--red-color);
+}
 
 .footer .header__top__logo {
     font: normal normal bold 25px/34px var(--primary-font);
-
+}
+.footer__menu div {
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 1;
+    display: flex;
+}
+.footer__menu div p {
+    color: var(--grey-color-400);
 }
