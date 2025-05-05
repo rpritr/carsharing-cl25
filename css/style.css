@@ -180,19 +180,35 @@ body {
     padding-left: 59px;
     padding-right: 59px;
 }
+.form input::placeholder,
+textarea::placeholder {
+    color: var(--grey-color-300);
+    font: normal normal light 16px/22px var(--primary-font);
 
+}
 .form input, textarea {
     padding: 8px 12px;
     border-radius: 8px;
     border: 1px solid var(--grey-color-400);
     color: var(--grey-color-200);
     margin-bottom: 20px;
+    font: normal normal light 16px/22px var(--primary-font);
+}
+
+.form input:focus, textarea:focus {
+    box-shadow: 0 1px 6px var(--red-color-t100);
+    border: 1px solid var(--red-color);
 }
 .form input[type="submit"] {
     color: var(--red-color);
     border-color: var(--red-color);
     width: 120px;
     align-self: flex-end;
+    box-shadow: 0 3px 6px var(--red-color-t100);
+    border-radius: 40px;
+    font: normal normal bold 14px/19px var(--primary-font);
+
+
 }
 
 .footer {
