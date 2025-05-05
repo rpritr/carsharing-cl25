@@ -194,3 +194,29 @@ body {
     width: 120px;
     align-self: flex-end;
 }
+
+.footer {
+    background-color: var(--grey-color-100);
+    color: var(--white-color);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__menu
+{
+    display: flex;
+    gap: 140px;
+}
+.footer__menu ul {
+    text-transform: uppercase;
+    font: normal normal bold 14px/19px var(--primary-font);
+}
+
+.footer .header__top__logo {
+    font: normal normal bold 25px/34px var(--primary-font);
+
+}
